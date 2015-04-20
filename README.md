@@ -5,11 +5,14 @@ random number function introduced last week. Your goal is to create a new Person
 age 1-100, a random sex, and a random weight (for the purposes of this assignment, you can have a 100 pound 1 
 year old).
 
-Then, create a button, that when clicked, creates a new instance of the Person object, then appends that information
-to your containers.
+Create some sort of html element that will 'parent' the information you will create as described below. What kind
+of element is completely up to you and your pair.
+
+Then, create a button, that when clicked, creates a new instance of the Person object, then prepends that information
+to your html container.
 
 ## Hard Mode
-Refactor your code to have AGE, SEX, and WEIGHT in seperated containters. This can be tables or divs or however you 
+Refactor your code to have AGE, SEX, and WEIGHT in separate containers. This can be tables or divs or however you 
 would like to organize the content. The key being that the append functionality does not happen on one element.
 
 ## Pro Mode

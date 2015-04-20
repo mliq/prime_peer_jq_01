@@ -12,9 +12,9 @@ function Person(age, sex, weight){
 	}
 
 	if(this.sex == "Male"){
-		this.name = maleNames[randomNumber(0,maleNames.length)];
+		this.name = maleNames[randomNumber(0,maleNames.length-1)];
 	} else {
-		this.name = femaleNames[randomNumber(0,femaleNames.length)];
+		this.name = femaleNames[randomNumber(0,femaleNames.length-1)];
 	}
 }
 

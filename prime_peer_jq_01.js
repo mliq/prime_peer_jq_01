@@ -26,7 +26,9 @@ $(document).ready(function(){
     // Create person on button click
     peopleArray[i] = new Person(randomNumber(1,100), randomNumber(1,2), randomNumber(1,100));
     // Append a person
-    $("#people").prepend("<p>Person" + i + ": " + " age: " + peopleArray[i].age + " sex: " + peopleArray[i].sex + " weight: " + peopleArray[i].weight + "</p>");
+    $("#people").append("<tr id='homies'><td>Person " + i + ": </td>" + "<td> age: " + peopleArray[i].age + "</td>" + "<td> sex: " + peopleArray[i].sex + "</td>" + "<td> weight: " + peopleArray[i].weight + "</td></p>");
+
+
     i++;
   });
 });

@@ -1,5 +1,26 @@
 #someButton {
-background-color: #DDDDDD;
+background-color: #07AA9E;
 width: 100px;
 height: 100px;
+}
+
+#homies {
+  font-family: "Shift", monospace;
+  color: #4E4D4D;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#people {
+    border: 3px solid black;
+  }
+
+#someButton:hover{
+  background: #337277;
+  border: black;
+  box-shadow: 0px 0px 0px #777;
+}
+
+td {
+  padding: 10px;
 }
